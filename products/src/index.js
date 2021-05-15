@@ -1,10 +1,10 @@
 import faker from 'faker';
 
-let products = [];
+let products = '';
 
-for(let i = 0; i <3 ; i++) {
+for(let i = 0; i < 5 ; i++) {
     const name = faker.commerce.productName();
-    product += `<div>${name}</div>`
+    products += `<div>${name}</div>`
 }
 
 console.log(products);
