@@ -6,7 +6,7 @@ module.exports = {
   devServer: {
     port: 8082,
   },
-  plugin: [
+  plugins: [
     new ModuleFederationPlugin({
       name: 'cart.js',
       filename: 'remoteEntry.js',
