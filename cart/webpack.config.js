@@ -8,7 +8,7 @@ module.exports = {
   },
   plugins: [
     new ModuleFederationPlugin({
-      name: 'cart.js',
+      name: 'cart',
       filename: 'remoteEntry.js',
       exposes: {
         './CartShow': './src/index',
